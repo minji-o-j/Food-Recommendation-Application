@@ -6,4 +6,5 @@
 
 
 * 사용 장비&프로그램
-ppg센서 이용
+  * ppg센서
+  * Android studio
