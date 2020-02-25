@@ -7,4 +7,5 @@
 
 * 사용 장비&프로그램
   * ppg센서
-  * Android studio
+  * Android 
+  * 스마트폰
