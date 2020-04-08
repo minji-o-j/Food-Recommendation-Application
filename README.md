@@ -2,7 +2,7 @@
 # 음식 추천해주는 어플리케이션
 ![image](https://img.shields.io/badge/language-JAVA-success?style=plat&logo=Android-Studio)  
 
-![image](https://img.shields.io/badge/Lastest%20Update-200408-orange)
+![image](https://img.shields.io/static/v1?label=Latest%20Update&message=200408&color=orange)
 
 ---
 
