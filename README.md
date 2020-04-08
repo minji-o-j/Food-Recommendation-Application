@@ -2,7 +2,9 @@
 # 음식 추천해주는 어플리케이션
 ![image](https://img.shields.io/badge/language-JAVA-success?style=plat&logo=Android-Studio)
 
+
 ---
+
 ## 요약
 - 심장 박동을 이용하여 사용자의 기분을 판단. 사용자의 기분을 개선해주는 메뉴를 추천하는 어플리케이션 개발 
 
@@ -22,6 +24,7 @@
 ---
 ## 시스템 설명
 ![image](https://user-images.githubusercontent.com/45448731/78692592-19205b80-7935-11ea-952c-5e5118284415.png)  
+
 - PPG센서를 이용하여 사용자의 감정을 측정한 후 화면에 나타낸다.  
 <br>
 
