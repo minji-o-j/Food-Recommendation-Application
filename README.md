@@ -21,6 +21,10 @@
 ## 개발자
 - 박현지, 이은후([@201810794](https://github.com/201810794)), 정민지([@minji-o-j](https://github.com/minji-o-j/))
 ---
+## 사용 장비 & 프로그램
+- PPG 센서
+- Android Studio
+---
 ## 시스템 설명
 ![image](https://user-images.githubusercontent.com/45448731/78692592-19205b80-7935-11ea-952c-5e5118284415.png)  
 
@@ -45,10 +49,9 @@
 
 - 사용자의 현재 감정을 개선하는 음식을 제공 해준다는 점에서 사용자의 흥미를 끌 것으로 예상
 ---
-## 사용 장비 & 프로그램
-- PPG 센서
-- Android Studio
+## 감성 
 ---
+
 ## 
 
 ---
