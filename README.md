@@ -51,7 +51,7 @@
 ---
 ## 감성 측정 방법
 
-### 측정하는 Data
+### > 측정하는 Data
 #### PPI
 - Peak와 Peak 사이 간격인 PPI(Peak-to-Peak Interval)를 측정하여 감성 판단   
 ![image](https://user-images.githubusercontent.com/45448731/78755071-88d52b80-79b3-11ea-828c-e3b6ec9d824a.png)
@@ -64,11 +64,12 @@
 > HF(고주파 성분): 부교감 신경계의 활동과 관련 
 > LF(저주파 성분): 교감 신경계의 활동과 관련  
 > HF/LF: 교감신경계와 부교감 신경계의 우세도 판별  
+<br>
 
-### 감정 분류 
+### > 감정 분류 
 ![image](https://user-images.githubusercontent.com/45448731/78754937-49a6da80-79b3-11ea-883d-92aaaf39c3df.png)
 
-### 측정 방법
+### > 측정 방법
 - PPG 센서를 어플리케이션을 통해 연결한다. 
 ---
 
