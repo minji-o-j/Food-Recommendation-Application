@@ -70,7 +70,7 @@
 ![image](https://user-images.githubusercontent.com/45448731/78754937-49a6da80-79b3-11ea-883d-92aaaf39c3df.png)
 
 ### > 측정 방법
-- PPG 센서를 어플리케이션을 통해 연결한다. 
+- PPG 센서를 어플리케이션을 통해 스마트폰에 연결한다. 
 ---
 
 ## 
