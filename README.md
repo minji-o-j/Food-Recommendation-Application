@@ -1,7 +1,7 @@
 # Food Recommendation Application
 # 음식 추천해주는 어플리케이션
 ![image](https://img.shields.io/badge/language-JAVA-success?style=plat&logo=Android-Studio)
-![image](https://img.shields.io/static/v1?label=Latest%20Update&message=200513&color=9cf)
+![image](https://img.shields.io/static/v1?label=Latest%20Update&message=200608&color=9cf)
 
 ---
 
