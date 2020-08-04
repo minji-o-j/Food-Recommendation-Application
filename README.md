@@ -4,6 +4,7 @@
 ![image](https://img.shields.io/badge/Latest%20Update-200804-9cf?style=flat-square)
 ![HitCount](http://hits.dwyl.com/minji-o-j/Food-Recommendation-Application.svg)  
 ---
+<br>
 
 ## ◼ 요약
 - 심장 박동을 이용하여 사용자의 기분을 판단. 사용자의 기분을 개선해주는 메뉴를 추천하는 어플리케이션 개발 
@@ -28,17 +29,17 @@
 ## ◼ 시스템 설명
 ![image](https://user-images.githubusercontent.com/45448731/78692592-19205b80-7935-11ea-952c-5e5118284415.png)  
 
->> PPG센서를 이용하여 사용자의 감정을 측정한 후 화면에 나타낸다.  
+> PPG센서를 이용하여 사용자의 감정을 측정한 후 화면에 나타낸다.  
 <br>
 <br>
 
 ![image](https://user-images.githubusercontent.com/45448731/78692749-4a992700-7935-11ea-881f-a91fa9537252.png)  
->>  __행복/ 화남/ 슬픔__ 세 감정이 있으며 감정 상태에 따라 추천하는 음식 List 중 __3개가 랜덤으로 선택__ 된다.  
+>  __행복/ 화남/ 슬픔__ 세 감정이 있으며 감정 상태에 따라 추천하는 음식 List 중 __3개가 랜덤으로 선택__ 된다.  
 <br>
 <br>
 
 ![image](https://user-images.githubusercontent.com/45448731/78698294-13c70f00-793d-11ea-94ab-fee017cf5882.png)  
->> 선택된 메뉴에 대해서는 각각 __이 음식이 추천된 이유에 대한 설명__ 을 확인 할 수 있으며 결제를 하여 음식을 주문할 수 있다.  
+> 선택된 메뉴에 대해서는 각각 __이 음식이 추천된 이유에 대한 설명__ 을 확인 할 수 있으며 결제를 하여 음식을 주문할 수 있다.  
 <br>
 
 ---
