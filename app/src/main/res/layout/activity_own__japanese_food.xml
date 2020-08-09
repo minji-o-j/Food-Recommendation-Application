@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Own_JapaneseFood">
+    ​
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back_jp"
+        android:text="BACK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    ​
+    <ImageView
+        android:id="@+id/sakedong"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134"
+        app:srcCompat="@drawable/j_sake" />
+    ​
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sakedong"
+        app:layout_constraintVertical_bias="0.048"
+        app:srcCompat="@drawable/j_curry" />
+    ​
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/j_katz" />
+    ​
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.066"
+        app:srcCompat="@drawable/j_sushi" />
+    ​
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/j_menta" />
+    ​
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:layout_constraintVertical_bias="0.12"
+        app:srcCompat="@drawable/j_ramen" />
+    ​
+    <Button
+        android:id="@+id/sake"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/sakedong"
+        app:layout_constraintEnd_toEndOf="@+id/sakedong"
+        app:layout_constraintStart_toStartOf="@+id/sakedong"
+        app:layout_constraintTop_toTopOf="@+id/sakedong" />
+    ​
+    <Button
+        android:id="@+id/curry"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14" />
+    ​
+    <Button
+        android:id="@+id/katz"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+    ​
+    <Button
+        android:id="@+id/sushi"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+    ​
+    <Button
+        android:id="@+id/menta"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17" />
+    ​
+    <Button
+        android:id="@+id/ramen"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+</androidx.constraintlayout.widget.ConstraintLayout>
