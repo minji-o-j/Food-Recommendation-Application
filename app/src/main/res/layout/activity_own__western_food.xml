@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Own_WesternFood">
+    ​
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back_wt"
+        android:text="BACK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    ​
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151"
+        app:srcCompat="@drawable/w_oyster" />
+    ​
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.048"
+        app:srcCompat="@drawable/w_pasta" />
+    ​
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/w_bar" />
+    ​
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        app:layout_constraintVertical_bias="0.102"
+        app:srcCompat="@drawable/w_steak" />
+    ​
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:layout_constraintVertical_bias="0.118"
+        app:srcCompat="@drawable/w_pizza" />
+    ​
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.268"
+        app:srcCompat="@drawable/w_spasta" />
+    ​
+    <Button
+        android:id="@+id/oyster"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+    ​
+    <Button
+        android:id="@+id/pasta"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="@+id/imageView19"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="@+id/imageView19" />
+    ​
+    <Button
+        android:id="@+id/bar"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toTopOf="@+id/imageView20" />
+    ​
+    <Button
+        android:id="@+id/steak"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/imageView21" />
+    ​
+    <Button
+        android:id="@+id/pizza"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22" />
+    ​
+    <Button
+        android:id="@+id/spasta"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+</androidx.constraintlayout.widget.ConstraintLayout>
