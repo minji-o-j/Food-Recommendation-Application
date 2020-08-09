@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Own_Menu">
+    ​
+    <Button
+        android:id="@+id/popular"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/whitegrey"
+        android:textColor="@color/black"
+        android:onClick="Popular"
+        android:text="인기 챠트\n보기"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+    ​
+    <Button
+        android:id="@+id/Korean"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/whitegrey"
+        android:onClick="Korean"
+        android:text="한식"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+    ​
+    <Button
+        android:id="@+id/Chinese"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/whitegrey"
+        android:onClick="Chinese"
+        android:text="중식"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popular"
+        app:layout_constraintVertical_bias="0.079" />
+    ​
+    <Button
+        android:id="@+id/Japanese"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/whitegrey"
+        android:onClick="Japanese"
+        android:text="일식"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Korean"
+        app:layout_constraintVertical_bias="0.079" />
+    ​
+    <Button
+        android:id="@+id/Western"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/whitegrey"
+        android:onClick="Western"
+        android:text="양식"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Chinese"
+        app:layout_constraintVertical_bias="0.168" />
+    ​
+    <Button
+        android:id="@+id/Etc"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/whitegrey"
+        android:onClick="ETC"
+        android:text="기타"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Japanese"
+        app:layout_constraintVertical_bias="0.168" />
+    ​
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="BACK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
