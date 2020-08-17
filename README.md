@@ -1,7 +1,7 @@
 # Food Recommendation Application
 # 음식 추천해주는 어플리케이션 (작성중)
 ![image](https://img.shields.io/badge/language-JAVA-blue?style=flat-square&logo=Android-Studio)
-![image](https://img.shields.io/badge/Latest%20Update-200804-9cf?style=flat-square)
+![image](https://img.shields.io/badge/Latest%20Update-200817-9cf?style=flat-square)
 ![HitCount](http://hits.dwyl.com/minji-o-j/Food-Recommendation-Application.svg)  
 ---
 <br>
