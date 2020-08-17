@@ -4,11 +4,13 @@
 ![image](https://img.shields.io/badge/Latest%20Update-200817-9cf?style=flat-square)
 ![HitCount](http://hits.dwyl.com/minji-o-j/Food-Recommendation-Application.svg)  
 ---
-<br>
 
 [요약](#-요약)  
 [개발 기간](#-개발-기간)  
 [개발자](#-개발자)  
+[시스템 설명](#-시스템-설명)  
+[목적 및 기대 효과](#-목적-및-기대-효과)  
+[감성 측정 방법](#-감성-측정-방법)  
 
 <!--
 [](#-)
