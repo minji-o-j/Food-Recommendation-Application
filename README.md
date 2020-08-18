@@ -1,10 +1,23 @@
 # Food Recommendation Application
 # 음식 추천해주는 어플리케이션 (작성중)
 ![image](https://img.shields.io/badge/language-JAVA-blue?style=flat-square&logo=Android-Studio)
-![image](https://img.shields.io/badge/Latest%20Update-200804-9cf?style=flat-square)
+![image](https://img.shields.io/badge/Latest%20Update-200817-9cf?style=flat-square)
 ![HitCount](http://hits.dwyl.com/minji-o-j/Food-Recommendation-Application.svg)  
 ---
-<br>
+
+[요약](#-요약)  
+[개발 기간](#-개발-기간)  
+[개발자](#-개발자)  
+[**시스템 설명**](#-시스템-설명)  
+[목적 및 기대 효과](#-목적-및-기대-효과)  
+[**감성 측정 방법**](#-감성-측정-방법)  
+
+<!--
+[](#-)
+-->
+
+
+---
 
 ## ◼ 요약
 - 심장 박동을 이용하여 사용자의 기분을 판단. 사용자의 기분을 개선해주는 메뉴를 추천하는 어플리케이션 개발 
