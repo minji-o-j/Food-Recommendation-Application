@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Feel_Angry">
+    ​
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="감정에 따른 추천 음식입니다."
+        android:textColor="#000000"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="42dp"
+        android:gravity="center"
+        android:text="원하는 음식을 선택해 설명을 확인한 후 \n결제를 진행해주세요."
+        android:textColor="#363636"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    ​
+
+
+    <ImageView
+        android:id="@+id/layout2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"></ImageView>
+
+    <ImageView
+        android:id="@+id/layout1"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="44dp"
+        android:background="#00ff0000"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"></ImageView>
+
+    <ImageView
+        android:id="@+id/layout3"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="260dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="372dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dab" />
+    ​
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/layout1"
+        app:layout_constraintEnd_toEndOf="@+id/layout1"
+        app:layout_constraintStart_toStartOf="@+id/layout1"
+        app:layout_constraintTop_toTopOf="@+id/layout1" />
+    ​
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/layout2"
+        app:layout_constraintEnd_toEndOf="@+id/layout2"
+        app:layout_constraintStart_toStartOf="@+id/layout2"
+        app:layout_constraintTop_toTopOf="@+id/layout2" />
+    ​
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="@+id/layout3"
+        app:layout_constraintEnd_toEndOf="@+id/layout3"
+        app:layout_constraintStart_toStartOf="@+id/layout3"
+        app:layout_constraintTop_toTopOf="@+id/layout3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
