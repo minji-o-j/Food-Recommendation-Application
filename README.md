@@ -33,7 +33,7 @@
 
 ---
 ## ◼ 개발자
-- 박현지, 이은후([@201810794](https://github.com/201810794)), 정민지([@minji-o-j](https://github.com/minji-o-j/))
+- 박현지, 이은후([@eunhxx](https://github.com/eunhxx)), 정민지([@minji-o-j](https://github.com/minji-o-j/))
 ---
 ## ◼ 사용 장비 & 프로그램
 - PPG 센서
